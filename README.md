@@ -3,7 +3,7 @@
 ## make-attachments-organised-again
 Hacks for daily work: arrangement for email attachments, move attachments (in physical) from a batch of emails to a file path you like.
 
-The code is in VBA.
+fetch-multi-email-attchs writes in VBA. 
 
 The origin of the code is that a friend of mine looked forward to removing all the attachments from the emails, but keeping the original email, so that communication history could be traced back, while the storage that Outlook email takes was less.
 
@@ -15,3 +15,9 @@ Outlook email user who has authorisation to Microsoft Macro.
 Target of the code:
 1. Fetch attachements out from the chosen emails, save them to a path you determined
 2. Remove the attachments from emails, and leave the link of the file by path and filename in the original email
+
+Using method:
+1. Create a module
+2. Paste the code into it, change the directory name if you like
+3. Multi-choose your emails
+4. Run the VBA module
